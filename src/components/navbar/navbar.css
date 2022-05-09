@@ -1,0 +1,24 @@
+nav{
+    background-color: #21222A;
+}
+nav>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo-container>h1{
+    color: #61DAFB;
+}
+.logo-container>img{
+    width: 40px;
+}
+@media screen and (max-width:500px) {
+    nav>.container{
+        gap: 15px;
+    }
+}
